@@ -1,4 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>woylie/renovate-presets:library"]
+  "extends": [
+    "github>scoville/renovate-presets:base",
+    "github>scoville/renovate-presets:ci"
+  ],
+  "enabled": true,
+  "enabledManagers": ["github-actions"]
 }
